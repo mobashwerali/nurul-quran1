@@ -1,0 +1,6 @@
+{
+  "name": "Nurul Quran - Tilawat & Ayah Reciter",
+  "description": "Listen to soulful Quran tilawat verse-by-verse by world-renowned Qaris with Arabic calligraphy, Bengali and English translations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

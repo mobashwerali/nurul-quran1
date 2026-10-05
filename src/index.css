@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+  --font-bangla: 'Anek Bangla', system-ui, sans-serif;
+  --font-serif: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.font-bangla {
+  font-family: var(--font-bangla);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(11, 43, 38, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.6);
+}
